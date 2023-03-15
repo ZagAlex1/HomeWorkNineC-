@@ -17,8 +17,8 @@ int PutNumber(string message)
 
 string ShowNumbersFromNToOne(int number)
 {
-    if (number == 1) 
-    return number + " ";
+    if (number == 1)
+        return number + " ";
     else
-    return number + " " + ShowNumbersFromNToOne(number-1);
+        return number + " " + ShowNumbersFromNToOne(number - 1);
 }
